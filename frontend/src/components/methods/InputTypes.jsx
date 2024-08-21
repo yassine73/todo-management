@@ -43,7 +43,6 @@ function InputTypes(props) {
   };
 
   const handleDelete = () => {
-    console.log(todo.id);
     fetch(ApiURl, {
       method: "DELETE",
       headers: { "Content-Type": "application/json" },
