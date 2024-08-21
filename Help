@@ -1,0 +1,22 @@
+# Create and activate Environment
+python3.12 -m venv venv
+source venv/bin/activate
+
+# Backend
+# Install requirements.txt
+pip install -r requirements.txt
+
+
+
+### Frontend
+# install react
+npm create vite@latest frontend
+
+cd frontend
+npm install
+npm run dev
+
+# install chakra-ui 
+npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
+# install fontawesome 
+npm i --save @fortawesome/fontawesome-svg-core
